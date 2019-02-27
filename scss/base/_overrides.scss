@@ -1,0 +1,22 @@
+/**
+ * @files
+ * Bootstrap styling overrides.
+ */
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@include media-breakpoint-up(sm) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
